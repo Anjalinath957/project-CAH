@@ -34,32 +34,83 @@ header{
 }
 .container{
     margin-left: 120px;
-    font-size: 60px;
-    font-family:"bebas neue";
-  
-     font-weight: 400;
+ margin-right: 120px;
+
+ 
+
 }
 .top-margin{
     margin-top: 40px;
-    color: white;
 }
-     
+.headingtext{
+    font-size: 70px;
+    font-family: "bebas neue";
+    color: white;
+    font-weight:400;
 
+}
 .subHeading{
-margin-left: 120;
-margin-top: 10;
     color: white;
     font-size :25px;
+    margin-top: 10px;
+    margin-left: 100px;
+
 }
 .social {
-    margin-top: 60;
-    padding-bottom: 120px;
+    margin-top: 40;
+    padding-bottom: 110px;
 }
 .social img{
   margin-left: 20px;
 }
+.features img{
+    width:60px;
+}
+.features{
 
+    display:grid;
+    grid-template-columns:auto auto auto;
 
+text-align:center;
+
+}
+
+.featurestext{
+
+        font-family: "bebas neue";
+    margin-top: 15px;
+    margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .feature-sub-heading{
+        font-size: 20px;
+        color:gray
+    }
+.featurestext1{
+
+        font-family: "bebas neue";
+    margin-top: 15px;
+    margin-bottom: 10px;
+        font-size: 35px;
+}
+
+    .feature-sub-heading1{
+        font-size: 20px;
+        color:gray
+}
+
+featurestext2{
+
+        font-family: "bebas neue";
+    margin-top: 15px;
+    margin-bottom: 10px;
+        font-size: 35px;
+}
+
+    .feature-sub-heading2{
+        font-size: 20px;
+        color:gray
+}
 
 
 
